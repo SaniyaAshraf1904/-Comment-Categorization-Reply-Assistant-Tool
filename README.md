@@ -1,4 +1,3 @@
-# 🧾 Generate README.md for "Comment Categorization & Reply Assistant Tool"
 
 # 💬 Comment Categorization & Reply Assistant Tool
 
