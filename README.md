@@ -1,13 +1,10 @@
 # 🧾 Generate README.md for "Comment Categorization & Reply Assistant Tool"
 
-readme_text = """
 # 💬 Comment Categorization & Reply Assistant Tool
 
 ## 🎯 Objective
 The goal of this project is to develop an intelligent system that automatically **analyzes, classifies, and responds** to user comments based on their **emotion or intent**.  
 This tool can assist **brands, creators, and customer service teams** in engaging with their audience more efficiently and empathetically.
-
----
 
 ## 🧠 Project Description
 This project leverages **Natural Language Processing (NLP)** and **Machine Learning** to classify user comments into various emotional and intent-based categories such as:
@@ -23,8 +20,6 @@ This project leverages **Natural Language Processing (NLP)** and **Machine Learn
 
 Each detected category is paired with a **context-aware automatic reply**, enabling the system to engage with users instantly.
 
----
-
 ## 🧰 Technologies & Libraries Used
 - **Python**
 - **pandas**, **numpy** → data preprocessing and analysis  
@@ -33,14 +28,13 @@ Each detected category is paired with a **context-aware automatic reply**, enabl
 - **TF-IDF Vectorization** → text feature extraction  
 - **Logistic Regression / Random Forest** → model classification  
 
----
-
 ## 📊 Dataset Overview
 - **Initial dataset shape:** 20,004 rows × 3 columns  
 - **Final dataset shape:** (20004, 3) after preprocessing  
-- The dataset contained labeled comments for supervised learning.
+- The dataset contained labeled comments for supervised learnin
 
-### Category Distribution:
+##Category Distribution:
+
 | Category | Count |
 |-----------|-------|
 | Praise | 7480 |
@@ -52,7 +46,7 @@ Each detected category is paired with a **context-aware automatic reply**, enabl
 | Irrelevant/Spam | 1 |
 | Question/Suggestion | 1 |
 
----
+
 
 ## 📈 Model Performance
 - **Model Accuracy:** `0.888` (88.8%)  
@@ -68,7 +62,7 @@ Each detected category is paired with a **context-aware automatic reply**, enabl
 
 ✅ **Overall Weighted Avg F1-Score:** ~0.89
 
----
+
 
 ## 💡 Example Predictions and Auto-Replies
 | Comment | Predicted Category | Suggested Reply |
@@ -78,7 +72,6 @@ Each detected category is paired with a **context-aware automatic reply**, enabl
 | The video was good, but the sound was poor. | Praise | Thank you for your kind words! We appreciate your support. |
 | Can you make one on topic X? | Praise | Thank you for your kind words! We appreciate your support. |
 
----
 
 ## ⚙️ Real-Time Comment Classifier
 The project includes a **real-time classification tool**, allowing users to input comments dynamically and instantly receive predictions and replies.
