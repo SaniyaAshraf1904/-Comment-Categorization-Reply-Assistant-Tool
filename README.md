@@ -75,4 +75,3 @@ Each detected category is paired with a **context-aware automatic reply**, enabl
 ## ⚙️ Real-Time Comment Classifier
 The project includes a **real-time classification tool**, allowing users to input comments dynamically and instantly receive predictions and replies.
 
-### Example:
